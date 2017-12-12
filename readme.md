@@ -21,6 +21,14 @@ From the command line, run `setup_msvc.bat`.
 
 # Included Dependencies
 
-[![conan-boost](https://img.shields.io/badge/conan.io-Boost%2F1.60.0-green.svg)](http://www.conan.io/source/Boost/1.60.0/lasote/stable)
+[![conan-boost](https://img.shields.io/badge/conan.io-Boost/1.60.0-green.svg)](http://www.conan.io/source/Boost/1.60.0/lasote/stable)
 
-[![conan-tbb](https://img.shields.io/badge/conan.io-tbb%2F4.4.4-green.svg)](http://www.conan.io/source/TBB/4.4.4/memsharded/testing)
+[![conan-tbb](https://img.shields.io/badge/conan.io-tbb/4.4.4-green.svg)](http://www.conan.io/source/TBB/4.4.4/memsharded/testing)
+
+[![conan-tbb](https://img.shields.io/badge/conan.io-zlib/1.2.11-green.svg)](http://www.conan.io/source/zlib/1.2.11@conan/stable)
+
+[![conan-tbb](https://img.shields.io/badge/conan.io-bzip2/1.0.6-green.svg)](http://www.conan.io/source/bzip2/1.0.6@conan/stable)
+
+# Submodules
+
+This repo uses submodules. See this [article](http://www.vogella.com/tutorials/GitSubmodules/article.html) if you need a 101 on using submodules.

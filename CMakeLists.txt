@@ -13,8 +13,9 @@ set(CMAKE_SKIP_RPATH OFF)
 file(GLOB APP_SRC ./src/*.cpp)
 
 get_filename_component(APP_HEADERS_PATH ./include ABSOLUTE)
+get_filename_component(ASL_PATH ./adobe_source_libraries ABSOLUTE)
 
-include_directories(boilerplate ${APP_HEADERS_PATH} ${CONAN_INCLUDE_DIRS})
+include_directories(boilerplate ${ASL_PATH} ${CONAN_INCLUDE_DIRS} ${APP_HEADERS_PATH})
 link_directories(${CONAN_LIB_DIRS})
 
 add_executable(boilerplate ${APP_SRC})
