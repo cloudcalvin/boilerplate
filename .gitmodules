@@ -1,0 +1,4 @@
+[submodule "adobe_source_libraries"]
+	path = adobe_source_libraries
+	url = https://github.com/stlab/adobe_source_libraries.git
+	branch = master
